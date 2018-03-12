@@ -1,0 +1,22 @@
+%nav-wrapper{
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    ul{
+        float: left;
+        li{
+            float: left;
+            margin-right: 2.5em;
+            a{
+                text-decoration: none;
+                color: red;
+                &::before{
+                    display: none;
+                }
+            }
+        }
+    }
+    .search-wrapper{
+        float: right;
+    }
+}

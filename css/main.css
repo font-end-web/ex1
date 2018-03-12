@@ -1,0 +1,42 @@
+.header-wrapper .header-contain .nav-wrapper {
+  position: absolute;
+  bottom: 0;
+  display: inline-block; }
+  .header-wrapper .header-contain .nav-wrapper ul {
+    float: left; }
+    .header-wrapper .header-contain .nav-wrapper ul li {
+      float: left;
+      margin-right: 2.5em; }
+      .header-wrapper .header-contain .nav-wrapper ul li a {
+        text-decoration: none;
+        color: red; }
+        .header-wrapper .header-contain .nav-wrapper ul li a::before {
+          display: none; }
+  .header-wrapper .header-contain .nav-wrapper .search-wrapper {
+    float: right; }
+
+.header-wrapper .header-contain .logo {
+  height: 100%;
+  max-width: 20%; }
+  .header-wrapper .header-contain .logo img {
+    width: 100%;
+    height: 100%; }
+
+.header-wrapper {
+  position: relative;
+  height: 100px;
+  max-width: 1900px; }
+  .header-wrapper .header-contain {
+    height: 100%;
+    margin: 0 10%; }
+    .header-wrapper .header-contain .logo {
+      float: left; }
+    .header-wrapper .header-contain .nav-wrapper {
+      float: right;
+      bottom: 0px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
