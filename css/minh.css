@@ -1,0 +1,23 @@
+#move{
+    animation: move ease-in-out 20s 1s infinite;
+}
+@keyframes move{
+    0%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-left: 80%;
+        margin-top:0px;
+    }
+    50%{
+        margin-left: 80%;
+        margin-top:35%;
+    }
+    75%{
+        margin-top:35%;
+        margin-left:0px;
+    }
+    100%{
+        margin-top:0px;
+    }
+}
